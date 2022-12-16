@@ -20,7 +20,7 @@
 // OWASP Top 10:2021 > A03 - Injection
 // CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
 // CWE-1004: Sensitive Cookie Without 'HttpOnly' Flag
-fn main(){
+fn main() {
     use cookie::Cookie;
 
     let mut c = Cookie::new("data", "sensitive value");
