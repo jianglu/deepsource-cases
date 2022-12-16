@@ -13,4 +13,10 @@ fn main() {
         libc::free(p as _);
         *p = 99;
     }
+
+    if foo() == Some(1) {}
+}
+
+fn foo() -> Option<i32> {
+    Some(2)
 }
