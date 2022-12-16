@@ -1,8 +1,16 @@
 version = 1
 
 [[analyzers]]
+name = "cxx"
+enabled = true
+
+[[analyzers]]
 name = "rust"
 enabled = true
 
   [analyzers.meta]
-  msrv = "stable"
+  msrv = "nightly"
+
+[[transformers]]
+name = "rustfmt"
+enabled = true
