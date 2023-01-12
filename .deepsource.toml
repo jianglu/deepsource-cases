@@ -1,4 +1,13 @@
 version = 1
 
+test_patterns = [
+  "examples/**",
+  "src/**"
+]
+
+exclude_patterns = [
+]
+
 [[analyzers]]
 name = "secrets"
+enabled = true
