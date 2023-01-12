@@ -1,19 +1,4 @@
 version = 1
 
 [[analyzers]]
-name = "sql"
-
-[[analyzers]]
 name = "secrets"
-
-[[analyzers]]
-name = "cxx"
-
-[[analyzers]]
-name = "rust"
-
-  [analyzers.meta]
-  msrv = "nightly"
-
-[[transformers]]
-name = "rustfmt"
